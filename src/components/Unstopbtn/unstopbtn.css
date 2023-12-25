@@ -1,0 +1,41 @@
+.unstopbtn{
+  position: absolute;
+  top:370px ;
+  right: 400px;
+  opacity: 1;
+  margin: 50px 0px;
+  background-color: rgb(13, 103, 13);
+  padding: 10px 20px;
+  font-size: 30px;
+  border-radius: 15px;
+  border: 2px solid gold;
+  color: rgb(244, 231, 162);
+  text-shadow: 2px 0px #ffff;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-image: linear-gradient(to right, #118d36 0%, #bbae1d  36%, #1c7838  100%);
+  box-shadow: 0 0 20px #eee;
+}
+         
+.btn-grad {
+    background-image: linear-gradient(to right, #3CA55C 0%, #dbcd31  51%, #3CA55C  100%);
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    
+    border-radius: 10px;
+    display: block;
+  }
+
+  .unstopbtn:hover {
+     /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+    background-image: linear-gradient(to right, #0c6828 0%, #968b0f  36%, #1c7838  100%);
+    cursor: pointer;
+
+  }
+ 

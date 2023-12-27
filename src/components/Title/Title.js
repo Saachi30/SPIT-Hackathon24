@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useCallback } from "react";
 import "./Title.scss";
 
 const fonts = [
@@ -16,7 +16,6 @@ const letters1 = ["S", "P", "I", "T"];
 const letters2 = ["H", "A", "C", "K", "A", "T", "H", "O", "N"];
 const letters3 = ["2", "0", "2", "4"];
 
-const getRandomFont = () => fonts[Math.floor(Math.random() * fonts.length)];
 
 const Title = () => {
   const getRandomFont = useCallback(

@@ -58,7 +58,7 @@ const ParticleBackground = () => {
               }
             },
             "line_linked": {
-              "enable": true,
+              "enable": false,
               "distance": 150,
               "color": "#ffd700",
               "opacity": 1,

@@ -81,3 +81,53 @@ img {
     height: 8rem;
   }
 }
+
+@media screen and (max-width: 500px) {
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 9rem;
+    scale: 0.75;
+  }
+  
+  .title {
+    font-size: 2.5rem;
+    padding: 0 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+  
+    .letter {
+      text-shadow: 0 0 0.4em $border-color, 0 0 0.4em $border-color, 0 0 0.4em $border-color;
+      mix-blend-mode: screen;
+      padding: 0 0.5rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: inherit; // or specify a default font-family here
+    }
+  }
+  .spit{
+    font-size: 3rem;
+    .letter{
+      height: 3rem;
+    }
+  }
+  
+  .year{
+    font-size: 3rem;
+    .letter {
+      height: 3rem;
+    }
+  }
+  
+  .hackathon{
+    font-size: 3rem;
+    .letter{
+      height: 3rem;
+    }
+  }
+}

@@ -22,7 +22,7 @@
 
 .imgcontainer::before{
   content: "";
-  background-image: url("../src/imgs/lokibg2.png");
+  background-image: url("../src/imgs/lokibg5.png");
   background-position: center;
   background-size: cover;
   position: absolute;

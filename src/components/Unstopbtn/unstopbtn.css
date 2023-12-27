@@ -2,7 +2,7 @@
 
 .container .btn {
 	position: relative;
-	top: 25rem;
+	top: 27.5rem;
 	width: 20rem;
 	height: 4rem;
 	margin: 0;
@@ -38,6 +38,7 @@
 .container .btn:hover a {
 	letter-spacing: 4px;
 	color: black;
+	font-weight: 700;
 }
 .container .btn a::before {
 	content: "";
@@ -95,7 +96,60 @@
 }
 .container .btn:nth-child(1)::before, /* 3*/
 .container .btn:nth-child(1)::after {
-	background: #1eff45;
-	box-shadow: 0 0 5px #1eff45, 0 0 15px #1eff45, 0 0 30px #1eff45,
-		0 0 60px #1eff45;
+	background: #F8861E;
+	box-shadow: 0 0 5px #F8861E, 0 0 15px #F8861E, 0 0 30px #F8861E,
+		0 0 60px #F8861E;
+}
+
+@media screen and (max-width: 500px) {
+	.container .btn a {
+		letter-spacing: 4px;
+		color: black;
+		font-weight: 700;
+	}
+	.container .btn a::before {
+		transform: skewX(45deg) translate(200px);
+	}
+	.container .btn::before {
+		content: "";
+		position: absolute;
+		left: 50%;
+		transform: translatex(-50%);
+		bottom: -5px;
+		width: 30px;
+		height: 10px;
+		border-radius: 10px;
+		transition: 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
+	}
+	.container .btn::before /*lightup button*/ {
+		bottom: 0;
+		height: 50%;
+		width: 90%;
+		border-radius: 30px;
+	}
+	
+	.container .btn::after {
+		content: "";
+		position: absolute;
+		left: 50%;
+		transform: translatex(-50%);
+		top: -5px;
+		width: 30px;
+		height: 10px;
+		border-radius: 10px;
+		transition: 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
+	}
+	.container .btn::after /*lightup button*/ {
+		top: 0;
+		height: 50%;
+		width: 90%;
+		border-radius: 30px;
+	}
+	.container .btn:nth-child(1)::before, /* 3*/
+	.container .btn:nth-child(1)::after {
+		background: #F8861E;
+		box-shadow: 0 0 5px #F8861E, 0 0 15px #F8861E, 0 0 30px #F8861E,
+			0 0 60px #F8861E;
+	}
+	
 }

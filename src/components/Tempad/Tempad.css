@@ -1,0 +1,39 @@
+.outerdiv{
+    height: 80vh;
+    width: 80vw;
+    display: flex;
+    background-color: rgb(37, 36, 36);
+    opacity: 0.9;
+    border: 1px solid sandybrown;
+    position: absolute;
+    top: 730px;
+    right: 120px;
+}
+
+.leftdiv{
+    width: 50vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin: 30px 30px;
+    padding: 15px 30px;
+
+}
+
+.rightdiv{
+    width: 30vw;
+    height: 60vh;
+    color: rgb(199, 131, 5);
+    font-size: 200px;
+    display: flex;
+   
+    flex-wrap: wrap;
+
+}
+
+
+.icon{
+    width: 14vw;
+    height: 13vh;
+}

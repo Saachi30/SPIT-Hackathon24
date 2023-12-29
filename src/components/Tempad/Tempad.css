@@ -54,7 +54,6 @@
 	width: 50%;
 	color: #f8861e;
 	display: flex;
-	display: flex;
 	gap: 1rem;
 	align-items: center;
 	justify-content: space-around;
@@ -63,12 +62,15 @@
 
 .icon {
 	display: flex;
-	height: 40%;
+	height: fit-content;
 	width: 27.5%;
+	min-width: 150px;
+	flex-wrap: wrap;
 	flex-direction: column;
 	align-items: center;
-	justify-content: center;
+	justify-content: space-between;
 	gap: 2rem;
+	padding: 1rem 0;
 	transition: all 400ms cubic-bezier(0.165, 0.84, 0.44, 1);
 	.innerIcon {
 		transition: all 400ms cubic-bezier(0.165, 0.84, 0.44, 1);
@@ -79,7 +81,7 @@
 }
 
 .Name {
-	font-size: 1.5rem;
+	font-size: 1.25rem;
 	text-transform: uppercase;
 }
 
@@ -93,6 +95,48 @@
 	}
 	.Name {
 		color: #dc3618;
-		scale: 1.1;
+		scale: 1.25;
+	}
+}
+
+@media screen and (max-width: 1355px) {
+	.outerdiv {
+		height: 90dvh;
+		width: 90dvw;
+	}
+}
+
+@media screen and (max-width: 1000px) {
+	.fullOuter {
+		height: fit-content;
+		margin-top: 2rem;
+		margin-bottom: 2rem;
+	}
+	.outerdiv {
+		width: 90dvw;
+		height: fit-content;
+		padding: 2rem;
+		gap: 3rem;
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.leftdiv,
+	.rightdiv {
+		width: fit-content;
+		height: fit-content;
+	}
+}
+
+@media screen and (max-width: 500px) {
+	.icon {
+		min-width: 100px;
+		width: 40%;
+	}
+	.outerdiv {
+		padding: 1rem;
+	}
+	.rightdiv {
+		gap: 0.5rem;
+		width: fit-content;
 	}
 }

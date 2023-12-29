@@ -1,39 +1,38 @@
 .App {
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
 }
 
-.outercontainer{
-  display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: rgb(7, 31, 8);
+.outercontainer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: rgb(7, 31, 8);
 }
-.particlecontainer{
-  position: relative;
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   opacity: 0.75;
-}
-
-.imgcontainer::before{
-  content: "";
-  background-image: url("../src/imgs/lokibg5.png");
-  background-position: center;
-  background-size: cover;
-  position: absolute;
-  inset: 0;
-  opacity: 0.8;
+.particlecontainer {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	opacity: 0.75;
 }
 
-.titlesect{
-  width: 70vw;
-  height: 20%;
-  position: absolute;
-  top: 60px;
+.imgcontainer::before {
+	content: "";
+	background-image: url("../src/imgs/lokibg5.png");
+	background-position: center;
+	background-size: cover;
+	position: absolute;
+	inset: 0;
+	opacity: 0.8;
+}
 
+.titlesect {
+	width: 70vw;
+	height: 20%;
+	position: absolute;
+	top: 60px;
 }

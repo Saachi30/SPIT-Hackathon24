@@ -5,7 +5,9 @@ const Unstopbtn = () => {
 	return (
 		<div className="container">
 			<div className="btn">
-				<a href="https://www.google.com">View On UnStop</a>
+				<a href="https://unstop.com/hackathons/spit-hackathon-2024-bharatiya-vidya-bhavans-sardar-patel-institue-of-technology-mumbai-835961">
+					View On UnStop
+				</a>
 			</div>
 		</div>
 	);

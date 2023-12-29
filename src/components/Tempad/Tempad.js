@@ -15,12 +15,14 @@ const Tempad = () => {
 					<h1>SPIT Hackathon 2024</h1>
 					<h3>
 						Following tradition, CSI-SPIT is conducting the annual
-						24-hour "SPIT Hackathon" in February 2023. This year, we
-						are going back to organizing the hackathon completely in
-						Offline Mode. With a great team and skilled panel of
-						judges, this hackathon will be an ideal platform to put
-						student's knowledge to use and network with peers.
+						24-hour <q>SPIT Hackathon</q> in February 2024. With a great
+						team and skilled panel of judges, this hackathon will be
+						an ideal platform to put student's knowledge to use and
+						network with peers. 
 					</h3>
+					<div className="Details">
+						<div className="Detail"></div>
+					</div>
 				</div>
 				<div className="rightdiv">
 					<div className="icon">

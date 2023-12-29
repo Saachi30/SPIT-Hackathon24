@@ -12,6 +12,7 @@ html {
   font-size: 100%; /* Add a font size */
   //font-family: $primary-font;
   box-sizing: border-box;
+  overflow-x: hidden;
 }
 
 *, *::before, *::after {
@@ -88,7 +89,7 @@ img {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    margin-top: 10rem;
+    margin-top: 12rem;
     scale: 0.75;
   }
   

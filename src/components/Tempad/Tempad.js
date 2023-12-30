@@ -10,7 +10,7 @@ import CodeIcon from "@mui/icons-material/Code";
 import DateRangeIcon from "@mui/icons-material/DateRange";
 import Groups3Icon from "@mui/icons-material/Groups3";
 import DomainIcon from "@mui/icons-material/Domain";
-import LocationOnIcon from '@mui/icons-material/LocationOn';
+import LocationOnIcon from "@mui/icons-material/LocationOn";
 
 const Tempad = () => {
 	return (
@@ -27,7 +27,40 @@ const Tempad = () => {
 						use and network with peers.
 					</h3>
 					<div className="Details">
-						<div className="Detail"></div>
+						<div className="Detail">
+							<p className="header">
+								<DateRangeIcon className="detailicon" />
+								<p>Date</p>
+							</p>
+							<p className="extra">
+								10th and 11th February, 2024
+							</p>
+						</div>
+						<div className="Detail">
+							<p className="header">
+								<Groups3Icon className="detailicon" />
+								<p>TeamSize</p>
+							</p>
+							<p className="extra">2-4 Members</p>
+						</div>
+						<div className="Detail">
+							<p className="header">
+								<DomainIcon className="detailicon" />
+								<p>Domains</p>
+							</p>
+							<p className="extra">
+								Web/App Dev, AI/ML, AR/VR, Blockchain, FOSS
+							</p>
+						</div>
+						<div className="Detail">
+							<p className="header">
+								<LocationOnIcon className="detailicon" />
+								<p>Location</p>
+							</p>
+							<p className="extra">
+								Sardar Patel Institute of Technology, Mumbai
+							</p>
+						</div>
 					</div>
 				</div>
 				<div className="rightdiv">

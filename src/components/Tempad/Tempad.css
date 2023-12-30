@@ -102,6 +102,32 @@
 	}
 }
 
+.Details {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	gap: 1rem;
+	margin-top: 2rem;
+	.Detail {
+		display: grid;
+		grid-template-rows: 1fr;
+		grid-template-columns: 110px 2fr;
+		align-items: start;
+		gap: 1rem;
+	}
+	.Detail .header {
+		display: flex;
+		align-items: center;
+		color: #dc3618;
+		align-items: center;
+		p {
+			color: #f8861e;
+			text-transform: uppercase;
+			padding: 0 0.5rem;
+		}
+	}
+}
+
 @media screen and (max-width: 1355px) {
 	.outerdiv {
 		height: 90dvh;

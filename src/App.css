@@ -5,7 +5,15 @@
 	align-items: center;
 	justify-content: center;
 }
-
+.logo{
+	height: 80px;
+	width: 50px;
+	position: absolute;
+	top: 30px;
+	left: 100px;
+	z-index: 1;
+	
+}
 .outercontainer {
 	display: flex;
 	justify-content: center;

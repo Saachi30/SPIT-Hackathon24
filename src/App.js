@@ -8,6 +8,7 @@ function App() {
 	return (
 		<div className="App">
 			<div className="outercontainer">
+				<img className="logo" src="https://csi.spit.ac.in/img/csi_logo.bf152fc3.png"></img>
 				<div className="particlecontainer">
 					<ParticleBackground />
 				</div>

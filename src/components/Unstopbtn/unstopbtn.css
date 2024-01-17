@@ -2,7 +2,7 @@
 
 .container .btn {
 	position: relative;
-	top: 70dvh;
+	top: -8rem;
 	width: 22.5rem;
 	height: 4.5rem;
 	margin: 0;
@@ -96,9 +96,9 @@
 }
 .container .btn:nth-child(1)::before, /* 3*/
 .container .btn:nth-child(1)::after {
-	background: #F8861E;
-	box-shadow: 0 0 5px #F8861E, 0 0 15px #F8861E, 0 0 30px #F8861E,
-		0 0 60px #F8861E;
+	background: #f8861e;
+	box-shadow: 0 0 5px #f8861e, 0 0 15px #f8861e, 0 0 30px #f8861e,
+		0 0 60px #f8861e;
 }
 
 @media screen and (max-width: 500px) {
@@ -127,7 +127,7 @@
 		width: 90%;
 		border-radius: 30px;
 	}
-	
+
 	.container .btn::after {
 		content: "";
 		position: absolute;
@@ -147,9 +147,11 @@
 	}
 	.container .btn:nth-child(1)::before, /* 3*/
 	.container .btn:nth-child(1)::after {
-		background: #F8861E;
-		box-shadow: 0 0 5px #F8861E, 0 0 15px #F8861E, 0 0 30px #F8861E,
-			0 0 60px #F8861E;
+		background: #f8861e;
+		box-shadow: 0 0 5px #f8861e, 0 0 15px #f8861e, 0 0 30px #f8861e,
+			0 0 60px #f8861e;
 	}
-	
+	.container .btn {
+		top: 0rem;
+	}
 }

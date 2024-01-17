@@ -1,0 +1,61 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+
+footer {
+	width: 100dvw;
+	border: 1px solid black;
+	margin: 0 auto;
+	padding: 2rem;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+	font-family: "Courier New", Courier, sans-serif;
+	background-color: #000;
+	color: #fff;
+	border-top: 2px dashed #00ffff;
+}
+
+.credits {
+	min-width: 80%;
+	text-align: center;
+	text-transform: uppercase;
+	border-top: 1px solid #d87093;
+	padding-top: 1rem;
+	a {
+		text-decoration: none;
+		color: #00ffff;
+	}
+}
+
+.section {
+	padding: 1rem;
+	font-size: large;
+	font-weight: 600;
+	gap: 1rem;
+	a {
+		text-decoration: none;
+		color: #d87093;
+	}
+	i {
+		font-size: large;
+		color: #40e0d0;
+	}
+}
+
+.link {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 8px;
+	padding: 0.25rem;
+	a {
+		font-size: large;
+	}
+	transition: transform 0.3s ease-in-out;
+}
+
+.link:hover {
+	cursor: pointer;
+	outline: 1px dotted #00ffff;
+	transform: scale(1.05);
+}

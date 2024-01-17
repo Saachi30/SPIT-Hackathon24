@@ -2,7 +2,7 @@ import React from "react";
 import "./Tempad.css";
 import PhoneAndroidIcon from "@mui/icons-material/PhoneAndroid";
 import RocketLaunchIcon from "@mui/icons-material/RocketLaunch";
-import ViewInArIcon from "@mui/icons-material/ViewInAr";
+import PriceChangeIcon from '@mui/icons-material/PriceChange';
 import LanguageIcon from "@mui/icons-material/Language";
 import CurrencyBitcoinIcon from "@mui/icons-material/CurrencyBitcoin";
 import CodeIcon from "@mui/icons-material/Code";
@@ -18,7 +18,7 @@ import { useEffect } from "react";
 const Tempad = () => {
 	useEffect(() => {
 		Aos.init({
-			duration: 800,
+			duration: 400,
     		easing: 'ease-in-out',
 		});
 	  }, []);
@@ -58,7 +58,7 @@ const Tempad = () => {
 								<p>Domains</p>
 							</p>
 							<p className="extra" data-aos="fade-right">
-								Web/App Dev, AI/ML, AR/VR, Blockchain, FOSS
+								Web/App Dev, AI/ML, Blockchain, FinTech
 							</p>
 						</div>
 						<div className="Detail">
@@ -80,14 +80,6 @@ const Tempad = () => {
 							data-aos="fade-up"
 						/>
 						<p className="Name" data-aos="fade-up">Mobile-Dev</p>
-					</div>
-					<div className="icon">
-						<ViewInArIcon
-							className="innerIcon"
-							style={{ fontSize: "6rem" }}
-							data-aos="fade-up"
-						/>
-						<p className="Name" data-aos="fade-up">AR/VR</p>
 					</div>
 					<div className="icon">
 						<RocketLaunchIcon
@@ -114,12 +106,12 @@ const Tempad = () => {
 						<p className="Name" data-aos="fade-up">BlockChain</p>
 					</div>
 					<div className="icon">
-						<CodeIcon
+						<PriceChangeIcon
 							className="innerIcon"
 							style={{ fontSize: "6rem" }}
 							data-aos="fade-up"
 						/>
-						<p className="Name" data-aos="fade-up">OpenSource</p>
+						<p className="Name" data-aos="fade-up">FinTech</p>
 					</div>
 				</div>
 			</div>

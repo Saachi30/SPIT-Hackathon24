@@ -2,15 +2,23 @@
 
 .fullOuter {
 	font-family: IBM Plex Mono, monospace;
-	position: absolute;
-	height: 100dvh;
-	width: 100dvw;
-	left: 0;
-	top: 100dvh;
-	background-color: rgba(4, 5, 6, 0.75);
+	/* position: absolute;
+	height: 100dvh;*/
+	width: 80dvw; 
+	position: relative;
+	/* left: 0;
+	top: 100dvh; */
+	margin-top: 12%;
+	background-color: rgba(0, 0, 0, 0.75);
 	display: flex;
 	align-items: center;
 	justify-content: center;
+}
+
+@media screen and (max-width: 500px) {
+	.fullOuter{
+		margin-top: 10rem;
+	}
 }
 
 .outerdiv {
@@ -66,7 +74,7 @@
 .icon {
 	display: flex;
 	height: fit-content;
-	width: 27.5%;
+	width: 25%;
 	min-width: 150px;
 	flex-wrap: wrap;
 	flex-direction: column;
@@ -139,7 +147,6 @@
 @media screen and (max-width: 1000px) {
 	.fullOuter {
 		height: fit-content;
-		margin-top: 2rem;
 		margin-bottom: 2rem;
 	}
 	.outerdiv {
@@ -168,5 +175,8 @@
 	.rightdiv {
 		gap: 0.5rem;
 		width: fit-content;
+	}
+	.leftdiv{
+		font-size: small;
 	}
 }

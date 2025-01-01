@@ -5,40 +5,40 @@ const Footer = () => {
 	return (
 		<footer>
 		
-			<div class="section">
+			<div className="section">
 				<p>Let's Connect</p>
-				<div class="link">
-					<i class="fa fa-github"></i>
-					<a class="name" href="https://github.com/CSI-SPIT">
+				<div className="link">
+					<i className="fa fa-github"></i>
+					<a className="name" href="https://github.com/CSI-SPIT">
 						GitHub
 					</a>
 				</div>
-				<div class="link">
-					<i class="fa fa-linkedin"></i>
+				<div className="link">
+					<i className="fa fa-linkedin"></i>
 					<a
-						class="name"
+						className="name"
 						href="https://www.linkedin.com/company/s-p-i-t-csi/mycompany/"
 					>
 						LinkedIn
 					</a>
 				</div>
 			</div>
-			<div class="section">
+			<div className="section">
 				<p>Social Media</p>
-				<div class="link">
-					<i class="fa fa-instagram"></i>
-					<a class="name" href="https://www.instagram.com/csispit/">
+				<div className="link">
+					<i className="fa fa-instagram"></i>
+					<a className="name" href="https://www.instagram.com/csispit/">
 						Instagram
 					</a>
 				</div>
-				<div class="link">
-					<i class="fa fa-facebook-official"></i>
-					<a class="name" href="https://www.facebook.com/CSI.SPIT/">
+				<div className="link">
+					<i className="fa fa-facebook-official"></i>
+					<a className="name" href="https://www.facebook.com/CSI.SPIT/">
 						Facebook
 					</a>
 				</div>
 			</div>
-			<h3 class="credits">
+			<h3 className="credits">
 				Developed by{" "}
 				<a href="https://www.linkedin.com/in/satyam-vyas/">
 					Satyam Vyas
